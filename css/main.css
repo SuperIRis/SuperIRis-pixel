@@ -1,0 +1,127 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#iris {
+  background: url('../images/sprites.svgz') no-repeat;
+  height: 70px;
+  position: absolute;
+  width: 51px;
+}
+#iris.down {
+  background-position: 0 0;
+}
+#iris.down.walk1 {
+  background-position: 0 -72px;
+}
+#iris.down.walk2 {
+  background-position: 0 -144px;
+}
+#iris.up {
+  background-position: -51px 0;
+}
+#iris.up.walk1 {
+  background-position: -51px -72px;
+}
+#iris.up.walk2 {
+  background-position: -51px -144px;
+}
+#iris.right {
+  background-position: -102px 0;
+}
+#iris.right.walk1 {
+  background-position: -102px -72px;
+}
+#iris.right.walk2 {
+  background-position: -102px -144px;
+}
+#iris.right.thumbsup {
+  background-position: -102px -648px;
+}
+#iris.left {
+  background-position: -153px 0;
+}
+#iris.left.walk1 {
+  background-position: -153px -72px;
+}
+#iris.left.walk2 {
+  background-position: -153px -144px;
+}
+#iris.left.thumbsup {
+  background-position: -153px -648px;
+}
+#iris.hadouken.stepR1 {
+  background-position: -102px -216px;
+}
+#iris.hadouken.stepR2 {
+  background-position: -102px -288px;
+}
+#iris.hadouken.stepR3 {
+  background-position: -102px -360px;
+}
+#iris.hadouken.stepR4 {
+  background-position: -102px -432px;
+}
+#iris.hadouken.stepR5 {
+  background-position: -102px -504px;
+}
+#iris.hadouken.stepR6 {
+  background-position: -102px -576px;
+}
+.hadoukenBall {
+  background: url('../images/ballsprites.svgz') no-repeat 0 0;
+  height: 16px;
+  margin: 37px 0 0 28px;
+  position: absolute;
+  width: 15px;
+}
+.hadoukenBall.step2 {
+  background-position: 0 -16px;
+}
